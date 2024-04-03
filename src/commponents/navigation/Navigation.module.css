@@ -1,0 +1,44 @@
+* {
+  color: #fff !important;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px;
+}
+
+.subList {
+  list-style: none;
+  padding: 0;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+/* 
+.subItem {
+} */
+
+.active {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+.show {
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+}
